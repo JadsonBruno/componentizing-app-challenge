@@ -1,10 +1,10 @@
 {
   "name": "01-github-explorer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack serve",
+    "dev": "webpack serve --open",
     "server": "json-server server.json --port 3333",
     "build": "cross-env NODE_ENV=production webpack",
     "test": "jest --watchAll"
